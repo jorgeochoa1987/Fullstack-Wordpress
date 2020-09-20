@@ -1,0 +1,108 @@
+2020-09-19T13:17:15+00:00 CRITICAL syntax error, unexpected '$facebook' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 20
+
+2020-09-19T13:17:18+00:00 CRITICAL syntax error, unexpected '$facebook' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 20
+
+2020-09-19T13:17:18+00:00 CRITICAL syntax error, unexpected '$facebook' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 20
+
+2020-09-19T13:19:24+00:00 CRITICAL syntax error, unexpected '$facebook' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 20
+
+2020-09-19T13:19:28+00:00 CRITICAL syntax error, unexpected '$facebook' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 20
+
+2020-09-19T13:19:28+00:00 CRITICAL syntax error, unexpected '$facebook' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 20
+
+2020-09-19T13:21:25+00:00 CRITICAL syntax error, unexpected '$twitter' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 26
+
+2020-09-19T13:21:27+00:00 CRITICAL syntax error, unexpected '$twitter' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 26
+
+2020-09-19T13:21:28+00:00 CRITICAL syntax error, unexpected '$twitter' (T_VARIABLE) en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 26
+
+2020-09-19T13:21:41+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 30
+
+2020-09-19T13:21:44+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 30
+
+2020-09-19T13:21:45+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 30
+
+2020-09-19T13:21:48+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 30
+
+2020-09-19T13:21:50+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 30
+
+2020-09-19T13:21:51+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 30
+
+2020-09-19T13:51:45+00:00 CRITICAL Object of class WP_Query could not be converted to string en C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php en la línea 343
+
+2020-09-19T18:06:52+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_attachment_ids() on null in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php:15
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(343): listadoObjeto('', '', 'shortcode-lista...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode-list...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[shortcode-list...')
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('[shortcode-list...', Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[shortcode-list...')
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php(351): the_content()
+#7 C:\xampp\htdocs\Fullstack-Wordpress\w en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 15
+
+2020-09-19T18:13:01+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on null in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(343): listadoObjeto('', '', 'shortcode-lista...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode-list...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[shortcode-list...')
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('[shortcode-list...', Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[shortcode-list...')
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php(351): the_content()
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-w en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 23
+
+2020-09-19T18:13:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_name() in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(343): listadoObjeto('', '', 'shortcode-lista...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode-list...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[shortcode-list...')
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('[shortcode-list...', Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[shortcode-list...')
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php(351): the_content()
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook. en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 23
+
+2020-09-19T18:15:26+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on null in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php:23
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(343): listadoObjeto('', '', 'shortcode-lista...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode-list...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[shortcode-list...')
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('[shortcode-list...', Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[shortcode-list...')
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php(351): the_content()
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-w en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 23
+
+2020-09-19T18:16:57+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php:22
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(343): listadoObjeto('', '', 'shortcode-lista...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode-list...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[shortcode-list...')
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('[shortcode-list...', Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[shortcode-list...')
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php(351): the_content()
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp- en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 22
+
+2020-09-19T18:50:35+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 80
+
+2020-09-19T18:50:44+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 80
+
+2020-09-19T19:02:23+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 76
+
+2020-09-19T19:44:35+00:00 CRITICAL Uncaught Error: Call to undefined function the_description() in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(343): listadoObjeto('', '', 'shortcode-lista...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(shortc...', 'do_shortcode_ta...', '[shortcode-list...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): do_shortcode('[shortcode-list...')
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('[shortcode-list...', Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[shortcode-list...')
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php(351): the_content()
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-w en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\plugins\carousel-Dev\index.php en la línea 39
+
+2020-09-19T20:59:46+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 76
+
+2020-09-19T21:00:29+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 81
+

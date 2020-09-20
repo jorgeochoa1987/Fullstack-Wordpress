@@ -1,0 +1,84 @@
+2020-09-20T03:09:21+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 79
+
+2020-09-20T03:10:18+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 92
+
+2020-09-20T03:25:35+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 91
+
+2020-09-20T03:26:00+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 80
+
+2020-09-20T03:53:50+00:00 CRITICAL Object of class WP_REST_Request could not be converted to string en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 93
+
+2020-09-20T03:54:46+00:00 CRITICAL Object of class WP_REST_Request could not be converted to string en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 93
+
+2020-09-20T04:10:54+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php:94
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(1050): consultaProducto(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api.php(339): WP_REST_Server->serve_request('/productos/v1/2')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\clas en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 94
+
+2020-09-20T04:19:19+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php:100
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(1050): consultaProducto(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api.php(339): WP_REST_Server->serve_request('/productos/v1/1...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 C:\xampp\htdocs\Fullstack-Wordpres en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 100
+
+2020-09-20T04:30:41+00:00 CRITICAL Object of class WP_REST_Request could not be converted to string en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 93
+
+2020-09-20T04:31:23+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_data() in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php:99
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(1050): consultaProducto(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api.php(339): WP_REST_Server->serve_request('/productos/v1/1...')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-incl en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 99
+
+2020-09-20T15:14:00+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_data() in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php:99
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(1050): consultaProducto(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api.php(339): WP_REST_Server->serve_request('/productos/v1/1')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp-include en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 99
+
+2020-09-20T15:15:41+00:00 CRITICAL Uncaught Error: Call to undefined method WP_REST_Request::get_data() in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php:98
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(1050): consultaProducto(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api.php(339): WP_REST_Server->serve_request('/productos/v1/1')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 98
+
+2020-09-20T15:15:49+00:00 CRITICAL Uncaught Error: Call to undefined method WP_REST_Request::get_data() in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php:98
+Stack trace:
+#0 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(1050): consultaProducto(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api\class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\rest-api.php(339): WP_REST_Server->serve_request('/productos/v1/1')
+#3 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\Fullstack-Wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 C:\xampp\htdocs\Fullstack-Wordpress\wp en C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php en la línea 98
+
+2020-09-20T15:25:14+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 112
+
+2020-09-20T15:36:04+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in C:\xampp\htdocs\Fullstack-Wordpress\wp-content\themes\storefront\functions.php on line 85
+
